@@ -12,10 +12,11 @@ share and discuss their ideas, problems, and the solutions that they come up
 with. We also believe that writing is the best medium to convey your work in its
 most accessible, high-quality form.
 
-With Kohack as the open platform, we aim to invite local hackers to write and
-blog about things that like-minded computer enthusiasts may find interesting.
+
 Unfortunately, we feel that the culture of creating content (e.g., blogging)
-among local hackers has seemingly no presence in Brunei.
+among local hackers has seemingly no presence in Brunei. With Kohack as the open
+platform, we aim to invite local hackers to write and blog about things that
+like-minded computer enthusiasts may find interesting.
 
 When we use the term hacker, we are referring to the more innocent but
 uncommon form of its definition: technology enthusiasts who like to overcome
