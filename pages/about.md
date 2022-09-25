@@ -15,14 +15,14 @@ most accessible, high-quality form.
 With Kohack as the open platform, we aim to invite local hackers to write and
 blog about things that like-minded computer enthusiasts may find interesting.
 Unfortunately, we feel that the culture of creating content (e.g., blogging)
-among local hackers has seemingly no presence.
+among local hackers has seemingly no presence in Brunei.
 
-When we use the term hacker, what we're referring to is the more innocent but
+When we use the term hacker, we are referring to the more innocent but
 uncommon form of its definition: technology enthusiasts who like to overcome
-technical problems, usually by employing computers. We love to use this term, as
-it represents our ideals, and hence the contents we wish to see be proliferated in
-Kohack by the local hacker community.
+technical problems, usually by employing computers. We prefer to use this term
+as it represents our ideals closely; and, it is through the driving force of
+this hacker culture ideals that we hope the contents in Kohack are proliferated.
 
-This site is the petri dish in our attempt to develop said culture.
+This site is hence the petri dish in our attempt to develop local hacker culture.
 
 _Welcome to Kohack!_
