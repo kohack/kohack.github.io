@@ -13,16 +13,16 @@ with. We also believe that writing is the best medium to convey your work in its
 most accessible, high-quality form.
 
 
-Unfortunately, we feel that the culture of creating content (e.g., blogging)
-among local hackers has seemingly no presence in Brunei. With Kohack as the open
-platform, we aim to invite local hackers to write and blog about things that
-like-minded computer enthusiasts may find interesting.
+We feel that the culture of creating content (e.g., blogging) among local
+hackers has seemingly no presence in Brunei. With Kohack as the open platform,
+we aim to invite local hackers to write and blog about things that like-minded
+computer enthusiasts may find interesting.
 
 When we use the term hacker, we are referring to the more innocent but archaic
-and uncommon form of its definition: technology enthusiasts who like to overcome
-technical problems, usually by employing computers. We prefer to use this term
-as it represents our ideals closely; and, it is through the driving force of
-this hacker culture ideals that we hope the contents in Kohack are proliferated.
+form of its definition: technology enthusiasts who like to overcome technical
+problems, usually by employing computers. We prefer to use this term as it
+represents our ideals closely; and, it is through the driving force of this
+hacker culture ideals that we hope the contents in Kohack are proliferated.
 
 This site is hence the petri dish in our attempt to develop local hacker culture.
 
