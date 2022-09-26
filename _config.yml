@@ -290,3 +290,9 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Authors collection
+collections:
+  authors:
+    output: true
+    permalink: /:collection/:name
