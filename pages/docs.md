@@ -7,7 +7,7 @@ toc: true
 # Hack Kohack
 
 Kohack is a blogging website built on top of [Jekyll](https://jekyllrb.com/), a
-static website generator. This means contents can be written in simple
+static website generator. You write your contents in simple
 [Markdown](https://en.wikipedia.org/wiki/Markdown) format, and Jekyll will
 automatically transform them into a static website.
 
