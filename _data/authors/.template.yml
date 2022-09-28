@@ -1,0 +1,10 @@
+name: Johnny Bravo
+summary: >
+  Handsome and muscular.
+
+  Also girl magnet.
+links:
+  - label:  "Email"
+    icon:   "fas fa-fw fa-envelope-square"
+    url:    "mailto:johnny.bravo@gmail.com"
+permalink: /authors/template
