@@ -61,7 +61,7 @@ Whether you want to add a blog or contribute to Kohack, the workflow is similar 
 2. Make your changes to Kohack (e.g., add new blog post)
 3. [Create a Pull Request](#2-create-a-pull-request) to Kohack
 
-### Create a blog post
+### Creating a blog post
 
 Adding a blog post with Jekyll is simple since a post is simply a plaintext file
 written in Markdown. As a hacker, _rejoice_, as this means you're able to do all
