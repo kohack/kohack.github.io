@@ -53,13 +53,12 @@ ensure that Kohack is running as expected.
 Congratulations! You've run Kohack locally and can now do whatever you want
 with it. We suggest you start by [adding a blog post](#2-write-your-blog-post).
 
-## Submitting a Blog
+## Submitting a Blog and Contributing
 
-Submitting a blog follows the same workflow as contributing to most projects on GitHub:
+Whether you want to add a blog or contribute to Kohack, the workflow is similar to most ways people contribute to open-contribution projects on GitHub:
 1. [Fork](#fork-kohack) the [Kohack](https://github.com/kohack/kohack.github.io)
    repository on GitHub
-2. Make your changes to Kohack in your local git repository to [create a blog
-   post](#1-create-a-blog-post)
+2. Make your changes to Kohack (e.g., add new blog post)
 3. [Create a Pull Request](#2-create-a-pull-request) to Kohack
 
 ### Create a blog post
@@ -73,9 +72,9 @@ favorite shell and terminal.
 Here is the list of steps you need to do to create a blog post:
 1. Run Kohack locally by running `docker compose up`.
 1. Add a Markdown file with a `YYYY-MM-DD` date format, e.g., `2022-05-26.md`.
-1. Write your blog contents in Markdown format. There are many flavors of
+1. Write your blog content in Markdown format. There are many flavors of
    Markdown, and most of them share a common basic syntax. Since Kohack is based on
-   Jekyll, it's worthwhile to skim through the [Jekyll's Markdown guide](https://www.markdownguide.org/tools/jekyll/).
+   Jekyll, it's worthwhile to skim through [Jekyll's Markdown guide](https://www.markdownguide.org/tools/jekyll/).
 1. Review your changes at [http://localhost:4000](http://localhost:4000). Rinse and repeat until
    you're satisfied with your blog post.
 
