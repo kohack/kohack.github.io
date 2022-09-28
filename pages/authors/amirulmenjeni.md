@@ -1,16 +1,7 @@
 ---
 layout: author
-name: Amirul Menjeni
-title: Amirul Menjeni
-email: amirulmenjeni@gmail.com
-socials:
-    twitter: amirulmenjeni
-    discord: CheeseNaan#1587
+author: amirulmenjeni
 permalink: /authors/amirulmenjeni
-avatar: amirulmenjeni.jpg
-summary: >
-    Graduate Development Trainee at Brunei Shell Petroleum assuming
-    the role of Sofware and Data Engineer. Also writing for fun in my spare time 📖🖋️.
 ---
 
 I'm a Graduate Development Trainee at [Brunei Shell
