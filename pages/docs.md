@@ -1,10 +1,9 @@
 ---
 layout: single
+title: Hack Kohack
 permalink: /docs/
 toc: true
 ---
-
-# Hack Kohack
 
 Kohack is a blogging website built on top of [Jekyll](https://jekyllrb.com/), a
 static website generator. You write your contents in simple
@@ -22,7 +21,7 @@ We welcome you to hack Kohack away, whether it be by adding interesting blog
 posts or by helping in maintaining the site. But before you start can hacking
 Kohack, you need to [fork Kohack](#fork-kohack) first.
 
-## Fork Kohack
+# Fork Kohack
 
 Before you can start contributing or adding a new blog post to Kohack, you first
 need to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
@@ -53,7 +52,7 @@ ensure that Kohack is running as expected.
 Congratulations! You've run Kohack locally and can now do whatever you want
 with it. We suggest you start by [adding a blog post](#2-write-your-blog-post).
 
-## Submitting a Blog and Contributing
+# Submitting a Blog and Contributing
 
 Whether you want to add a blog or contribute to Kohack, the workflow is similar to most ways people contribute to open-contribution projects on GitHub:
 1. [Fork](#fork-kohack) the [Kohack](https://github.com/kohack/kohack.github.io)
@@ -61,7 +60,7 @@ Whether you want to add a blog or contribute to Kohack, the workflow is similar 
 2. Make your changes to Kohack (e.g., add new blog post)
 3. [Create a Pull Request](#2-create-a-pull-request) to Kohack
 
-### Creating a blog post
+## Creating a blog post
 
 Adding a blog post with Jekyll is simple since a post is simply a plaintext file
 written in Markdown. As a hacker, _rejoice_, as this means you're able to do all
@@ -81,7 +80,7 @@ Here is the list of steps you need to do to create a blog post:
 Once you're ready to share your blog, [create a Pull Request on our Kohack
 repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-## Join Our Discord
+# Join Our Discord
 
 If you need help, or just want to chat, don't hesitate the find us at our
 discord server:
