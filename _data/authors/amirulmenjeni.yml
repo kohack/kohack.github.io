@@ -3,10 +3,14 @@ summary: >
   Graduate Development Trainee at Brunei Shell Petroleum assuming
   the role of Sofware and Data Engineer. Also writing for fun in my spare time 📖🖋️.
 links:
-  - label:  "Email"
-    icon:   "fas fa-fw fa-envelope-square"
+  - label:  email
     url:    "mailto:amirulmenjeni@gmail.com"
-  - label:  "Twitter"
-    icon:   "fab fa-fw fa-twitter-square"
+  - label:  twitter
     url:    "https://twitter.com/amirulmenjeni"
+  - label:  goodreads
+    url:    "https://www.goodreads.com/user/show/144747271-amirul-menjeni"
+  - label:  linkedin
+    url:    "https://www.linkedin.com/in/amirul-menjeni-282222154/"
+  - label:  discord
+    url:    "https://discord.gg/Xdmbk3mk"
 permalink: /authors/amirulmenjeni

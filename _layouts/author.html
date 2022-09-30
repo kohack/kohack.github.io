@@ -2,7 +2,23 @@
 layout: single
 ---
 
-<h1>{{ site.data.authors[page.author].name }}</h1>
+<h1>
+  {{ site.data.authors[page.author].name }}
+</h1>
 
-{{ content }}
+<div class="socials">
+  <ul>
+    {% assign sorted_links = site.data.authors[page.author].links | sort: "label" %}
+    {% for link in sorted_links %}
+      <li>
+        <a href="{{ link.url }}">
+          <i class="{{ site.data.mappings.icons.normal[link.label] }}"></i>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
 
+<div>
+  {{ content }}
+</div>
