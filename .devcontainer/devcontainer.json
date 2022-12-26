@@ -1,0 +1,32 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.101.1/containers/ruby-2
+{
+	"build": {
+		"dockerfile": "./Dockerfile",
+		"context": "."
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {
+			"version": "latest",
+			"ppa": "false"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"kargware.vscode-extension-jekyll-kw",
+				"ginfuru.ginfuru-vscode-jekyll-syntax",
+				"vscodevim.vim",
+				"znck.grammarly"
+			]
+		}
+	},
+	"forwardPorts": [
+		// Jekyll server
+		3000,
+		// Live reload server
+		35729
+	],
+	"postCreateCommand": "sh ./.devcontainer/post-create.sh",
+	"remoteUser": "vscode"
+}
