@@ -20,11 +20,11 @@ time. The lingering anti-patterns, however, remain -- an unfortunate outcome
 that I know would vex future maintainers as it had vexed me.
 
 _Thus the vicious cycle of lingering anti-patterns continues, lest a  programmer
-who cares enough about good code would put a stop to it by applying good 
+who cares enough about clean code would put a stop to it by applying good
 design patterns._
 
 As a programmer, it is instructive to understand why you should care to refactor
-your codes; how do "poorly written" codes even look like (as opposed to "good
+your codes; how do "poorly written" codes even look like (as opposed to clean"
 code")? Are you able to convince your team that their code needs improvement,
 and it's not just your subjective opinion on how to code?
 
