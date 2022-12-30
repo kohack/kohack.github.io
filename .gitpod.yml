@@ -1,3 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
   - init: sh ./.devcontainer/post-create.sh
     command: jekyll serve
