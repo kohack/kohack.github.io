@@ -1,0 +1,12 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: sh ./.devcontainer/post-create.sh
+    command: jekyll serve
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+  - port: 35729
+    onOpen: ignore
