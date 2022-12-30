@@ -10,3 +10,9 @@ ports:
     onOpen: open-preview
   - port: 35729
     onOpen: ignore
+
+vscode:
+  extensions:
+    - kargware.vscode-extension-jekyll-kw
+    - ginfuru.ginfuru-vscode-jekyll-syntax
+    - znck.grammarly
