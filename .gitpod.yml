@@ -6,8 +6,8 @@ tasks:
     command: jekyll serve
 
 ports:
-  - port: 3000
-    onOpen: open-preview
+  - port: 4000
+    onOpen: open-browser
   - port: 35729
     onOpen: ignore
 
