@@ -28,15 +28,15 @@ your code!_ Yet, why aren't we doing it yet?
 # So, Why Aren't More People Start Refactoring (Yet)?
 
 If you're like me and have experienced a situation in what I have described as
-signals that throw hints of [_Code
-Smells_](https://refactoring.guru/refactoring/smells), you must be wondering:
+signals that throw hints of [_code
+smells](https://refactoring.guru/refactoring/smells), you must be wondering:
 _why aren't these refactored sooner?_  I've seen too many programmers writing or
 maintaining codes that are hard to maintain, yet never seemed to be alarmed or
 care that the codes are frustratingly difficult to maintain.
 
 If the codes are challenging to maintain, why don't we put more effort into
 refactoring our codes? I'm sure there are numerous reasons, but I think there
-are a few salient reasons for progrmmers' reluctance to refactoring codes.
+are a few salient reasons for programmers' reluctance to refactor codes.
 
 ## It's the Broken Windows
 
@@ -85,13 +85,13 @@ application of design patterns to combat them means that their source code --
 without clever refactoring -- would eventually fall prey to [software
 rot](https://en.wikipedia.org/wiki/Software_rot). In other words, being more
 knowledgeable in design patterns can help you articulate and reason about the
-anti-patterns and Code Smells that plague your code so that you can come up with
-a good refactoring decision.
+anti-patterns and code smells plaguing your code, enabling you to come up with a
+well-informed refactoring decision.
 
 Unfortunately, at least from my experience, programmers who care about factoring
 design patterns into their code and implementation are scarce. To be sure,
 programmers who aren't keen on design patterns don't necessarily mean they're
-_bad_ programmers; perhaps they are just not incentivized enough to cares or
+_bad_ programmers; perhaps they are just not incentivized enough to care, or
 perhaps they're not frustrated enough to drive improvement. Still, it is vital
 for the health of your software and your team's sanity to appreciate the
 advantages of being more familiar with design patterns and the invaluable
@@ -105,7 +105,7 @@ refactoring. It may be viewed as extra work that can get in the way of doing
 the actual work, that is, delivering users the features they want. Some may even
 remark: why bother fixing codes that aren't broken?
 
-As had succinctly explained by the Steven Levitt and Stephen Dubner in their
+As succinctly explained by Steven Levitt and Stephen Dubner in their
 book [Freakonomics](https://freakonomics.com/books/), humans are driven by
 incentives:
 
@@ -136,18 +136,18 @@ clients want some fancy features, the programmers are incentivized to do just
 that -- write codes to deliver the fancy features -- alas, often with
 a lack of care as to the quality of the code. As the project evolves, however,
 the source code tends to grow unwieldy: integrating new features
-becomes a complex task, and bugs become harder to catch. But the programmers
-were effectively inculpable -- for they had lived up to their promise of
-delivering the requested features, and the clients were still no less oblivious
-about their unfortunate situation.
+becomes a complex task, and bugs become harder to catch and fix. But the
+programmers were effectively inculpable -- for they had lived up to their
+promise of delivering the requested features, and the clients were still no less
+oblivious about their unfortunate situation.
 
 Here, we can see [information
-asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) at play -- a
+asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) at play: a
 typical situation where one party of a transaction has better information than
 the other. Thus, while not refactoring may save the programmers some effort,
 unbeknownst to their trustful clients, they will have to pay the hefty
 consequences of hard-to-maintain software in the future (e.g., paying more for
-support).
+support and more costly maintenance).
 
 Interestingly, the example above does not hold true in Software-as-a-Service
 (SaaS) model, where the client would make recurring payments -- as opposed to
@@ -165,11 +165,12 @@ build](https://architectelevator.com/cloud/dont-run-what-didnt-build/)!
 A good piece of advice is to refactor whenever you see the signals -- the smell
 of code stinks -- that's when you know there's some refactoring to do. At the
 very least, if you're unable to refactor immediately, make a note of it -- raise
-an issue or a backlog to describe the code that needs refactoring -- as other
-programmers may not be aware that the code is, in fact, can be further cleaned
-and improved.  Don't let that one broken window cause you pain in the future. It
-is far easier to refactor small pieces of code than to refactor a giant, [big
-ball of mud](https://thedomaindrivendesign.io/big-ball-of-mud/).
+an issue or a backlog to describe the code that needs refactoring -- as the other
+programmers in your team may not be aware that the code is, in fact, can be
+further cleaned and improved.  Don't let that one broken window cause you pain
+in the future. It is far easier to refactor small pieces of code than to
+refactor a giant, [big ball of
+mud](https://thedomaindrivendesign.io/big-ball-of-mud/).
 
 Apart from the deterioration of code quality over time, the continuing shifts in
 the knowledge and available technology that went into the design and
@@ -180,10 +181,10 @@ appropriate for your use cases. In addition, adopting new technology that wasn't
 available even a few years ago might make your code a hundred times easier to
 maintain -- another motivation for refactoring.
 
-Alas, you can never really end the cycle. The vicious cycle will always be alive
-with each iteration of your software development lifecycle. And with each
-cycle, your source code can grow insidiously, tempting you to ignore the warning
-signals that shouldn't be ignored. It is thus crucial for you and your team to
-understand that refactoring is an essential, perpetual task; negligence of this
-fact would ensue further disarray and anti-patterns proliferating the source
-code, plunging you, your team, or future maintainers into maintenance hell.
+Alas, you can never really end the cycle. The vicious cycle will always be
+alive, and with each cycle, your source code can grow insidiously, tempting you
+to ignore the warning signals that shouldn't be ignored. It is thus crucial for
+you and your team to understand that refactoring is an essential, perpetual
+task; negligence of this fact would ensue further disarray and anti-patterns
+proliferating the source code, plunging you, your team, or future maintainers
+into maintenance hell.
