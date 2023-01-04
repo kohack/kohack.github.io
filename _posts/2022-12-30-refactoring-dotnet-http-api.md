@@ -29,7 +29,7 @@ your code!_ Yet, why aren't we doing it yet?
 
 If you're like me and have experienced a situation in what I have described as
 signals that throw hints of [_code
-smells](https://refactoring.guru/refactoring/smells), you must be wondering:
+smells_](https://refactoring.guru/refactoring/smells), you must be wondering:
 _why aren't these refactored sooner?_  I've seen too many programmers writing or
 maintaining codes that are hard to maintain, yet never seemed to be alarmed or
 care that the codes are frustratingly difficult to maintain.
@@ -60,11 +60,11 @@ So what does a theory in criminology has to do with refactoring? As it turns
 out, as brilliantly discussed in [The Pragmatic
 Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/),
 the human behavior observed in the Broken Windows Theory mirrors the behavior of
-programmers in their willingness to refactor their codes. Just as the tenants of
+programmers in their reluctance to refactor their codes. Just as the tenants of
 the dilapidating apartment grew hopeless as to the critical condition of their
 homes, programmers can lose the motivation to keep their code clean when their
-code is riddled with messy codes. Hence the never-ending cycle impediment to code
-improvement.
+code is riddled with messy codes. Hence the never-ending cycle impediment to
+code improvement.
 
 ## Knowledge of Design Patterns (Or Lack Thereof)
 
@@ -105,8 +105,8 @@ refactoring. It may be viewed as extra work that can get in the way of doing
 the actual work, that is, delivering users the features they want. Some may even
 remark: why bother fixing codes that aren't broken?
 
-As succinctly explained by Steven Levitt and Stephen Dubner in their
-book [Freakonomics](https://freakonomics.com/books/), humans are driven by
+Steven Levitt and Stephen Dubner, in their book
+[Freakonomics](https://freakonomics.com/books/), wrote that humans are driven by
 incentives:
 
 > Doctors, lawyers, contractors, stockbrokers, auto mechanics, mortgage brokers,
@@ -124,10 +124,10 @@ These incentives that influence the experts can work in your favor or against
 you. Car manufacturers, for example, are incentivized by designing better
 aesthetics, safety controls, comfortability, and usability of their cars to
 maximally attract prospective buyers. On the other hand, [real estate agents may
-sell your home cheaper than they would their own
-home](https://freakonomics.com/2008/02/real-estate-agents-revisited/), just to
+sell your house cheaper than they would their own
+house](https://freakonomics.com/2008/02/real-estate-agents-revisited/), just to
 sell your house quicker; and in doing so, they would lose only a meager couple
-of hundred dollars in commission compared to the house owner, who would,
+of hundred dollars in commission compared to you, who would,
 unfortunately, lose a couple of thousands.
 
 Programmers -- as their clients are often led to believe -- are experts in
@@ -149,7 +149,7 @@ unbeknownst to their trustful clients, they will have to pay the hefty
 consequences of hard-to-maintain software in the future (e.g., paying more for
 support and more costly maintenance).
 
-Interestingly, the example above does not hold true in Software-as-a-Service
+Interestingly, the example above may not hold true in Software-as-a-Service
 (SaaS) model, where the client would make recurring payments -- as opposed to
 paying for the software to be developed (usually by outsourcing) and run
 in the client's own infrastructure operated by the client's own team. In this
@@ -167,19 +167,19 @@ of code stinks -- that's when you know there's some refactoring to do. At the
 very least, if you're unable to refactor immediately, make a note of it -- raise
 an issue or a backlog to describe the code that needs refactoring -- as the other
 programmers in your team may not be aware that the code is, in fact, can be
-further cleaned and improved.  Don't let that one broken window cause you pain
-in the future. It is far easier to refactor small pieces of code than to
-refactor a giant, [big ball of
+further cleaned and improved.  Don't let that one broken window instigate more
+code smells being left unattended. It is far easier to refactor small pieces of
+code than to refactor a giant, [big ball of
 mud](https://thedomaindrivendesign.io/big-ball-of-mud/).
 
 Apart from the deterioration of code quality over time, the continuing shifts in
 the knowledge and available technology that went into the design and
 implementation of the software are another reason that refactoring is inherently
 a never-ending task. For example, gaining more clarity into the business domain
-may guide you to better design decisions, as does learning new design patterns
-appropriate for your use cases. In addition, adopting new technology that wasn't
-available even a few years ago might make your code a hundred times easier to
-maintain -- another motivation for refactoring.
+may guide you to better design decisions, as does the discovery of new design
+patterns appropriate for your use cases. In addition, adopting new technology
+that wasn't available even a few years ago might make your code a hundred times
+easier to maintain.
 
 Alas, you can never really end the cycle. The vicious cycle will always be
 alive, and with each cycle, your source code can grow insidiously, tempting you
