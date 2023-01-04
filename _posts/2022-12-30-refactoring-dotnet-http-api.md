@@ -35,8 +35,9 @@ maintaining codes that are hard to maintain, yet never seemed to be alarmed or
 care that the codes are frustratingly difficult to maintain.
 
 If the codes are challenging to maintain, why don't we put more effort into
-refactoring our codes? I'm sure there are numerous reasons, but I think there
-are a few salient reasons for programmers' reluctance to refactor codes.
+refactoring our codes? I think there are a few salient reasons for programmers'
+reluctance to refactor codes. (Though I'm sure there are more that may escape my
+notice.)
 
 ## It's the Broken Windows
 
@@ -51,10 +52,11 @@ The theory implies that if you police minor crimes, you can maintain order and
 reduce further crimes. For example, a broken window in an apartment that remains
 unfixed would create an atmosphere of disorder and chaos. The first few
 broken windows would initially raise voices of concern from the inhabitants of
-the apartment. However, as the number of broken windows continues to rise, the
-concerned voices may slowly diminish into silence and indifference as the state
-of the apartment, in its gradually dilapidated appearance, instills a growing
-sense of abandonment.
+the apartment. However, as the number of broken windows continues to rise and
+more serious damage to the apartment has been perpetrated, the concerned voices
+may slowly diminish into silence and indifference as the state of the apartment,
+in its gradually dilapidated appearance, instills a growing sense of
+abandonment.
 
 So what does a theory in criminology has to do with refactoring? As it turns
 out, as brilliantly discussed in [The Pragmatic
@@ -63,10 +65,10 @@ the human behavior observed in the Broken Windows Theory mirrors the behavior of
 programmers in their reluctance to refactor their codes. Just as the tenants of
 the dilapidating apartment grew hopeless as to the critical condition of their
 homes, programmers can lose the motivation to keep their code clean when their
-code is riddled with messy codes. Hence the never-ending cycle impediment to
-code improvement.
+code is riddled with messy codes. Hence the never-ending cycle that impedes
+programmers' motivation to start refactoring their code.
 
-## Knowledge of Design Patterns (Or Lack Thereof)
+##  Design Patterns Illiteracy
 
 Learning software engineering design patterns is demanding, often
 requiring advanced knowledge of the programming language onto which the design
@@ -77,12 +79,12 @@ pattern ever published (nor do I think they should).
 
 Nevertheless, in every engineering profession, having the appropriate degree of
 engineering knowledge is critical for an engineer to know that something's not
-right -- and consequently, the know-how to make things right. And when an
-engineer has limited knowledge in their trade, the likelihood of their
-design evolving into something more elegant and robust is diminishingly small.
-For software engineers, negligence to anti-patterns and the necessary
-application of design patterns to combat them means that their source code --
-without clever refactoring -- would eventually fall prey to [software
+right -- and consequently, the know-how to make things right. Clearly, when an
+engineer has limited knowledge in their trade, the likelihood of their design
+evolving into something more elegant and robust is diminishingly small.  For
+software engineers, negligence to anti-patterns and the necessary application of
+design patterns to combat them means that their source code -- without clever
+refactoring -- would eventually fall prey to [software
 rot](https://en.wikipedia.org/wiki/Software_rot). In other words, being more
 knowledgeable in design patterns can help you articulate and reason about the
 anti-patterns and code smells plaguing your code, enabling you to come up with a
@@ -127,8 +129,8 @@ maximally attract prospective buyers. On the other hand, [real estate agents may
 sell your house cheaper than they would their own
 house](https://freakonomics.com/2008/02/real-estate-agents-revisited/), just to
 sell your house quicker; and in doing so, they would lose only a meager couple
-of hundred dollars in commission compared to you, who would,
-unfortunately, lose a couple of thousands.
+of hundred dollars in commission compared to you, who would, unfortunately, lose
+a couple of thousands.
 
 Programmers -- as their clients are often led to believe -- are experts in
 writing code that deliver features deemed valuable to their clients. If their
@@ -165,11 +167,11 @@ build](https://architectelevator.com/cloud/dont-run-what-didnt-build/)!
 A good piece of advice is to refactor whenever you see the signals -- the smell
 of code stinks -- that's when you know there's some refactoring to do. At the
 very least, if you're unable to refactor immediately, make a note of it -- raise
-an issue or a backlog to describe the code that needs refactoring -- as the other
-programmers in your team may not be aware that the code is, in fact, can be
-further cleaned and improved.  Don't let that one broken window instigate more
-code smells being left unattended. It is far easier to refactor small pieces of
-code than to refactor a giant, [big ball of
+an issue or a backlog to describe the code that needs refactoring. Other
+programmers in your team may not be aware that the code is, in fact, suffers
+from anti-patterns and can be further cleaned and improved.  Don't let that one
+broken window instigate more code smells being left unattended. It is far easier
+to refactor small pieces of code than to refactor a giant, [big ball of
 mud](https://thedomaindrivendesign.io/big-ball-of-mud/).
 
 Apart from the deterioration of code quality over time, the continuing shifts in
@@ -186,5 +188,5 @@ alive, and with each cycle, your source code can grow insidiously, tempting you
 to ignore the warning signals that shouldn't be ignored. It is thus crucial for
 you and your team to understand that refactoring is an essential, perpetual
 task; negligence of this fact would ensue further disarray and anti-patterns
-proliferating the source code, plunging you, your team, or future maintainers
-into maintenance hell.
+proliferating the source code -- plunging you, your team, or future maintainers
+into [maintenance hell](https://blog.codecentric.de/maintenance-hell-no-thanks).
