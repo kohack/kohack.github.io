@@ -1,62 +1,94 @@
 ---
-title: Refactoring .NET HTTP API
+title: Why Aren't We Refactoring Yet?
 author: Amirul Menjeni
 ---
 
-# Don't Ignore the Signals
+# The Vicious Cycle
 
-When I first started as a software engineer, while working on old and
-"stable" codebases, my intuition would sometime give signals that something
-about the source code was off. For example, I could make out that there _are_
-anti-patterns and that the source code can somehow be improved with some
-refactoring. One such signal was that the code _felt_ too cluttered and hardly
-readable, making maintenance very frustrating. Arguably, such a signal was vague
-and is hardly helpful in improving and refactoring the code.
+When I first started working as a professional software engineer, I would work
+on old codebases, and my intuition would sometime give signals that something
+about the source code was off. One such signal was that the code _felt_ too
+cluttered and hardly readable, making maintenance very frustrating. Arguably,
+such a signal was vague and is scarcely helpful in improving and refactoring the
+code.
 
 I could not articulate the problems enough and failed to present
 a satisfying solution. In the race against deadlines, I ignored the
 warnings and managed to get the bug fixes and new features delivered on
-time. The lingering anti-patterns, however, remain -- an unfortunate outcome
+time. The lingering anti-patterns, however, remain -- an unfortunate decision
 that I know would vex future maintainers as it had vexed me.
 
 _Thus the vicious cycle of lingering anti-patterns continues, lest a  programmer
-who cares enough about clean code would put a stop to it by applying good
-design patterns._
+who cares enough about clean code would sever its perpetual cycle in a quest for
+refactoring, equipped with the wisdom of good design patterns._
 
-As a programmer, it is instructive to understand why you should care to refactor
-your codes; how do "poorly written" codes even look like (as opposed to clean"
-code")? Are you able to convince your team that their code needs improvement,
-and it's not just your subjective opinion on how to code?
+So how do we stop this vicious cycle? Perhaps more imperative: why are there
+seemingly low efforts among programmers to stop this cycle? Or maybe to be
+faithful to corporate reality, why aren't more managers value refactoring?
 
-In the following sections, we'll look at an example of HTTP API implemented in
-.NET manifesting design anti-patterns that I've encountered multiple times.
-We'll then see how we can apply popular design patterns to improve the code.
+# Why Aren't More People Value Refactoring?
 
-# Common Anti-Patterns
+If you're like me and have experienced a situation in what I have described as
+signals that throw hints of anti-patterns, I think you're on the right track.
+I've seen too many programmers writing or maintaining codes that are hard to
+maintain, yet never seemed to be alarmed or care that the codes are
+frustratingly difficult to maintain.
 
-Before discussing the anti-patterns, let me show you the code in question.
+If the codes are challenging to maintain, why don't we put more effort into
+refactoring our codes? I'm sure there are numerous reasons, but I think there
+are a few salient reasons for programmers' aversion to refactoring codes.
 
-```csharp
-namespace WebApi.Controllers;
+## It's the Broken Windows
 
-public Task<aa> GetWeather()
-{
+It's probably the broken windows, and I'm not talking about the ones in your
+office. Instead, I'm referring to the [_Broken Windows Theory_](https://en.wikipedia.org/wiki/Broken_windows_theory), which states that
+an environment manifesting signs of crimes, even minor ones, contributes to the growth of crime rates and the proliferation of crimes into more serious ones.
 
-}
-```
+The theory implies that if you police minor crimes, you can maintain order and
+reduce further crimes. For example, a broken window in an apartment that remains
+unfixed for a long period of time would create an atmosphere of disorder and
+chaos. The first few broken windows would initially raise voices of
+concern from the inhabitants of the apartment. However, as the number of broken
+windows continues to rise, the concerned voices may slowly diminish into silence
+and indifference as the state of the apartment, in its gradually dilapidated
+appearance, instills a growing sense of abandonment.
 
-# Refactoring
+So what does a theory in criminology has to do with refactoring? As it turns
+out, as brilliantly discussed in [The Pragmatic
+Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/),
+the human behavior observed in the Broken Windows Theory mirrors the behavior of
+programmers in their willingness to refactor their codes. Just as the tenants of
+the dilapidating apartment grew hopeless as to the critical condition of their
+homes, programmers can lose the motivation to keep their code clean when their
+code is riddled with messy codes.
+
+## Knowledge of Design Patterns
 
 TODO
 
-## Refactor: Logging
+## Poor Incentives
 
 TODO
 
-## Refactor: Handling Exceptions
+# The Perpetual Growth
 
-TODO
+Suppose you have managed to "end" the vicious cycle. _Congratulations_! A large
+part of your source code is now easy to maintain thanks to the adherence to good
+design patterns.
 
-## Conclusions
+However, refactoring doesn't stop there. As a matter of fact, it _doesn't_ have
+to start when you eventually find yourself in a very difficult maintenance
+situation. A good piece of advice is to refactor whenever you find an
+anti-pattern. At the very least, if you're unable to refactor immediately, make
+a note of it -- raise an issue or a backlog to describe the code that needs
+refactoring -- other programmers may not be aware that the code is, in fact,
+showing anti-pattern properties. It is easier to refactor small pieces of code
+than to refactor a giant, [big ball of
+mud](https://thedomaindrivendesign.io/big-ball-of-mud/).
 
-TODO
+Unfortunately, you can never really end the cycle. The vicious cycle will always
+be alive. And it is growing insidiously. It is thus crucial for you and your
+team to understand that refactoring is an essential, perpetual task; negligence
+of this fact would ensue further disarray and anti-patterns proliferating the
+source code, plunging you, your team, or future maintainers into maintenance
+hell.
