@@ -6,9 +6,9 @@ tags:
     - software rot
 ---
 
-While most programmers are eager to code, few are eager to refactor.  I briefly
-discuss a few salient reasons why I think some programmers appear to be less
-motivated to do code refactoring work.
+While most programmers are eager to write new code, few are eager to refactor.
+In this blog post I'll briefly discuss a few salient reasons why I think some
+programmers appear to be less motivated to do code refactoring work.
 
 # Introduction
 
