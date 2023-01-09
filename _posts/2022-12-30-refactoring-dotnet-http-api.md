@@ -1,6 +1,6 @@
 ---
 title: Why Aren't We Refactoring Yet?
-author: Amirul Menjeni
+author: amirulmenjeni
 ---
 
 # Introduction
