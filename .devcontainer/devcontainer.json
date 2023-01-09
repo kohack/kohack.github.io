@@ -28,5 +28,6 @@
 		35729
 	],
 	"postCreateCommand": "sh ./.devcontainer/post-create.sh",
+	"postStartCommand": "jekyll serve",
 	"remoteUser": "vscode"
 }
