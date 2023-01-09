@@ -6,9 +6,9 @@ tags:
     - software rot
 ---
 
-While most programmers are eager to write new code, few are eager to refactor.
-In this blog post I'll briefly discuss a few salient reasons why I think some
-programmers appear to be less motivated to do code refactoring work.
+While most programmers are seemingly eager to write new code, few are eager to
+refactor.  In this blog post, I'll briefly discuss a few salient reasons why I
+think some programmers appear to be less motivated to do code refactoring work.
 
 # Introduction
 
@@ -41,10 +41,8 @@ _why aren't these refactored sooner?_  I've seen too many programmers that never
 seemed to be alarmed or care that the codes are frustratingly difficult to
 maintain. While most are eager to write code, few are eager to refactor code.
 
-If the codes are challenging to maintain, why don't we put more effort into
-refactoring our codes? I think there are a few salient reasons for programmers'
-reluctance to refactor codes. (Though I'm sure there are more that may escape my
-notice.)
+I think there are a few salient reasons for programmers' reluctance to refactor
+codes. (Though I'm sure there are more that may escape my notice.)
 
 ## It's the Broken Windows
 
@@ -100,12 +98,11 @@ well-informed refactoring decision.
 Unfortunately, at least from my experience, programmers who care about factoring
 design patterns into their code and implementation are scarce. To be sure,
 programmers who aren't keen on design patterns don't necessarily mean they're
-_bad_ programmers; perhaps they are just not incentivized enough to care, or
-perhaps they're not frustrated enough to drive improvement. Still, it is vital
-for the health of your software and your team's sanity to appreciate the
-advantages of being more familiar with design patterns and the invaluable
-insight it provides to encourage you to refactor your code into something easier
-to maintain.
+_bad_ programmers; perhaps they are just not incentivized enough -- or not
+frustrated enough -- to care.  Still, it is vital for the maintainability of
+your software, perhaps more importantly your team's sanity, to appreciate design
+patterns and the invaluable insight it provides to help you to refactor your
+code into something easier to maintain.
 
 ## Incentives at Work
 
@@ -131,7 +128,7 @@ expert's incentives are set up.
 
 These incentives that influence the experts can work in your favor or against
 you. Car manufacturers, for example, are incentivized by designing better
-aesthetics, safety controls, comfortability, and usability of their cars to
+aesthetics, safety controls, comfortability, and durability of their cars to
 maximally attract prospective buyers. On the other hand, [real estate agents may
 sell your house cheaper than they would their own
 house](https://freakonomics.com/2008/02/real-estate-agents-revisited/), just to
@@ -150,13 +147,15 @@ programmers were effectively inculpable -- for they had lived up to their
 promise of delivering the requested features, and the clients were still no less
 oblivious about their unfortunate situation.
 
-Here, we can see [information
-asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry) at play: a
-typical situation where one party of a transaction has better information than
-the other. Thus, while not refactoring may save the programmers some effort,
-unbeknownst to their trustful clients, they will have to pay the hefty
-consequences of hard-to-maintain software in the future (e.g., paying more for
-support and more costly maintenance).
+Here, we can see an example of [information
+asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry): a typical
+situation where one party of a transaction has better information than the
+other. Naturally, the party with more information would be incentivized to
+withheld some information so as to maximize their reward, or minimze penalty.
+Thus, while not refactoring may save the programmers some effort, unbeknownst to
+their trustful clients, they will have to pay the hefty consequences of
+hard-to-maintain software in the future (e.g., paying more for support and more
+costly maintenance).
 
 Interestingly, the example above may not hold true in Software-as-a-Service
 (SaaS) model, where the client would make recurring payments -- as opposed to
@@ -174,8 +173,8 @@ build](https://architectelevator.com/cloud/dont-run-what-didnt-build/)!
 A good piece of advice is to refactor whenever you see the signals -- the smell
 of code stinks -- that's when you know there's some refactoring to do. At the
 very least, if you're unable to refactor immediately, make a note of it -- raise
-an issue or a backlog to describe the code that needs refactoring. Other
-programmers in your team may not be aware that the code is, in fact, suffers
+an issue or a backlog to highlight the code that needs refactoring. Other
+programmers in your team may not be aware that the code is in fact, suffers
 from anti-patterns and can be further cleaned and improved.  Don't let that one
 broken window instigate more code smells being left unattended. It is far easier
 to refactor small pieces of code than to refactor a giant, [big ball of
