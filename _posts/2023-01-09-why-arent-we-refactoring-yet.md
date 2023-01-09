@@ -1,7 +1,14 @@
 ---
 title: Why Aren't We Refactoring Yet?
 author: amirulmenjeni
+tags:
+    - refactoring
+    - software rot
 ---
+
+While most programmers are eager to code, few are eager to refactor.  I briefly
+discuss a few salient reasons why I think some programmers appear to be less
+motivated to do code refactoring work.
 
 # Introduction
 
@@ -30,9 +37,9 @@ your code!_ Yet, why aren't we doing it yet?
 If you're like me and have experienced a situation in what I have described as
 signals that throw hints of [_code
 smells_](https://refactoring.guru/refactoring/smells), you must be wondering:
-_why aren't these refactored sooner?_  I've seen too many programmers writing or
-maintaining codes that are hard to maintain, yet never seemed to be alarmed or
-care that the codes are frustratingly difficult to maintain.
+_why aren't these refactored sooner?_  I've seen too many programmers that never
+seemed to be alarmed or care that the codes are frustratingly difficult to
+maintain. While most are eager to write code, few are eager to refactor code.
 
 If the codes are challenging to maintain, why don't we put more effort into
 refactoring our codes? I think there are a few salient reasons for programmers'
