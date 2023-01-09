@@ -1,16 +1,22 @@
 name: Amirul Menjeni
-summary: >
+bio: >
   Graduate Development Trainee at Brunei Shell Petroleum assuming
-  the role of Sofware and Data Engineer. Also writing for fun in my spare time 📖🖋️.
+  the role of Sofware and Data Engineer.
+avatar: /assets/images/amirulmenjeni.jpg
 links:
   - label:  email
+    icon:   far fa-envelope 
     url:    "mailto:amirulmenjeni@gmail.com"
   - label:  twitter
+    icon:   fab fa-twitter
     url:    "https://twitter.com/amirulmenjeni"
   - label:  goodreads
+    icon:   fab fa-goodreads
     url:    "https://www.goodreads.com/user/show/144747271-amirul-menjeni"
   - label:  linkedin
+    icon:   fab fa-linkedin 
     url:    "https://www.linkedin.com/in/amirul-menjeni-282222154/"
   - label:  discord
+    icon:   fab fa-discord
     url:    "https://discord.gg/Xdmbk3mk"
 permalink: /authors/amirulmenjeni
