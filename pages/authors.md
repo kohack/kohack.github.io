@@ -9,6 +9,6 @@ author_profile: false
 {% assign author = author_hash[1] %}
 <div style="font-size: medium;">
     <h3><a href="{{ author.permalink }}">{{ author.name }}</a></h3>
-    <p>{{ author.summary | markdownify }}</p>
+    <p>{{ author.bio | markdownify }}</p>
 </div>
 {% endfor %}
