@@ -1,0 +1,50 @@
+.authors {
+    display: flex;
+    flex-direction: column;
+
+    div {
+        display: flex;
+        flex-direction: row;
+
+        @include breakpoint($large) {
+            padding-bottom: 10px;
+            width: auto;
+            height: auto;
+        }
+
+        .author_image {
+            flex-basis: content;
+            flex-grow: 0;
+            flex-shrink: 0;
+
+            @include breakpoint($large) {
+                padding-right: 10px;
+                width: auto;
+                height: auto;
+            }
+
+            img {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+
+                @include breakpoint($large) {
+                    padding: 5px;
+                    border: 1px solid $border-color;
+                }
+            }
+        }
+
+        .author_summary {
+            display: flexbox;
+            flex-direction: column;
+            flex-shrink: 0;
+            flex-grow: 1;
+
+            p {
+                inline-size: 500px;
+                overflow-wrap: break-word;
+            }
+        }
+    }
+}
