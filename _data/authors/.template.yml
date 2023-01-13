@@ -3,8 +3,11 @@ summary: >
   Handsome and muscular.
 
   Also girl magnet.
+
+# link.icon is optional. If not set, it will use the default icon for each
+# correspondiong link.label value in _data/mappings/icons.yml.
 links:
-  - label:  "Email"
+  - label:  email
     icon:   "fas fa-fw fa-envelope-square"
     url:    "mailto:johnny.bravo@gmail.com"
 permalink: /authors/template
