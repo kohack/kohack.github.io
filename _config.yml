@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "kohack"
 title_separator          : "-"
-subtitle                 : 🇧🇳 local hacking blog # site tagline that appears below site title in masthead
+subtitle                 : ":brunei: local hacking blog" # site tagline that appears below site title in masthead
 name                     :
-description              : 🇧🇳 local hacking blog
+description              : ":brunei: local hacking blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -230,6 +230,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
